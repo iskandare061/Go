@@ -1,0 +1,45 @@
+*{
+ margin: 0;
+}
+.block1{
+    font-size: 2rem;
+    background-color: blueviolet;
+    height: 2cm;
+    width: 200mm;
+    padding: 2in;
+    margin: 40pt;
+}
+.block1p{
+    font-size: 1.5rem;
+}
+body{
+    height: auto;
+}
+.block2{
+    margin-top: -5rem;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    background-color: rgba(166, 43, 43, 0.5);
+    height: 40%;
+    backdrop-filter: blur(2px);
+}
+.block3{
+    margin-top: 1rem;
+    background-color: chartreuse;
+    width: 50%;
+}
+.block4{
+    height: 100vh;
+    /*viewport*/
+    width: 50vw;
+    /*viewport width*/
+    background-color: crimson;
+}
+.block5{
+    width: 180vh;
+    height: 10rem;
+    max-width: 1600px;
+    min-width: 800px;
+    background-color: rgba(148, 0, 212, 0.708);
+}

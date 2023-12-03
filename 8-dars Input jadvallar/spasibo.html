@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ro'yhatdan o'tganingiz uchun rahmat <br>Спасибо за регистрацию<br>Thank you for registering </title>
+</head>
+<body>
+    <h1><span id="output"></span><br>Спасибо за регистрацию<br></h1>
+    <script>
+        const date = Object.fromEntries((new URLSearchParams)(Window.location.search).entries());
+        output.innerHTML = ${date.lastname} {date.firstname}
+        
+    </script>
+</body>
+</html>

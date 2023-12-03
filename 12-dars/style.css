@@ -1,0 +1,29 @@
+.dov1{
+    padding: 20px 75px 100px 60px;
+    padding-top:5rem;
+    box-sizing: border-box;
+    border: 1px solid rgb(48, 138, 7);
+    border-style:outset;
+    border-width: 20px;
+    margin: 25px 50px 75px;
+    margin-bottom: 80px;
+    margin-right: 100px;
+    margin-left:  90px;
+    background-color: rgb(114, 139, 122);
+}
+.dov2{
+    padding: 20px 25px 100px 30px;
+    margin-top: 20px; 
+    padding: 2rem;
+    border-radius: 25px;
+    border-style: dotted;
+    border-width: thick;
+    margin-bottom: 15px;
+    background-color: rgb(84, 84, 123);
+}
+
+.dov3{
+    margin-top: 20px;
+    margin-bottom: 15px;
+    background-color: rgb(86, 86, 128);
+}

@@ -1,0 +1,32 @@
+*{
+    margin: 0;
+}
+.flex {
+display:column;
+}
+.flex1{
+    display:flex;
+}
+.padding-1{
+    padding: 1.5rem;
+}
+.gap-1rem{
+    gap: 1rem;
+}
+.bg-red {
+    background-color: chartreuse;
+}
+.flex-column {
+    flex-direction: column-reverse ;
+}
+.item1 {
+    background-color: blue;
+    width: 70px;
+}
+.item2 {
+    width: 70px;
+    background-color: black;
+}
+.min-h-3rem1 {
+    min-height: 50px;
+}

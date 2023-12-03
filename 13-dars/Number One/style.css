@@ -1,0 +1,52 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+.flex {
+    display: flex;
+}
+.flex-column {
+    flex-direction: column;
+}
+.justify-between {
+    justify-content: space-between;
+}
+.px-120px {
+    padding-left: 120px;
+    padding-right: 120px;
+}
+.py-80px {
+    padding-top: 80px;
+    padding-bottom: 80px;
+}
+.bg1 {
+    background-image: url(block.png);
+    background-position: top right;
+    background-repeat: no-repeat;
+}
+.h-full {
+    height: 100vh;
+}
+.rotated {
+    text-orientation: sideways-right;
+    writing-mode: vertical-lr;
+    font-size: 24px;
+}
+
+.px-50px {
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+.text-big {
+    font-size: 144px;
+}
+
+
+.border-r {
+    border-right: 1px solid rgba(23, 28, 28, 10%);
+}
+
+.text-middle {
+    font-size: 24px;
+}

@@ -1,0 +1,55 @@
+.text-green {
+    color: green;
+}
+#heading3 {
+    color: blueviolet;
+}
+#h3 {
+    font-size: 50px;
+}
+.text-lg {
+    font-size: 48px;
+}
+.text-green.text-lg {
+    font-style: italic;
+}
+.text-2xl {
+    font-size: 32px;
+}
+.text-2xl .text-2xl {
+    font-size: 64px;
+}
+/*   */
+.text-2xl> * >.text-2xl {
+    font-size: 64px;
+}
+
+
+h1.text-green {
+    font-size: 60px;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    color:chartreuse !important;
+}
+
+
+.h-10 {
+    height: 10rem;
+}
+
+.inline {
+    display: inline;
+}
+
+.inline-block {
+    display: inline-block;
+}
+
+.bg-red {
+    background-color: red;
+}
+
+.d-none {
+    display: none;
+}

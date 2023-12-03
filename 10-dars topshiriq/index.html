@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form action="rahmat.html" method="get" name="user[]" autocomplete="off" >
+        <fieldset>
+            <legend>Asosiy malumotlar</legend>
+            <label>
+                First name: <br>
+                <input type="text" autofocus placeholder="your name" size="10" value="John" name="firstname" minlength="3" required maxlength="10">
+            </label>
+            <br>
+            <label>
+                Last name: <br>
+                <input type="text" autofocus  list="surnamesList" value="Doe" name="lastname" autocomplete="on">
+                <datalist id="surnamesList">
+                    <option value="Edge">
+                    <option value="Firefox">
+                    <option value="Chrome">
+                    <option value="Opera">
+                    <option value="Safari">
+                </datalist>
+            </label>
+        </fieldset>
+        <br>
+        <label>
+            email: <br>
+            <input type="email" value="" name="email">
+        </label>
+        <br>
+        <label>
+            gender: <br>
+            <select name="gender" multiple>
+                <optgroup label="genders">
+                    <option value="man" disabled> erkak</option>
+                    <option value="woman" selected> ayol</option>
+                </optgroup>
+                <optgroup label="asdf">
+                    <option value="no">aniqlanmagan</option>
+
+                </optgroup>
+            </select>
+        </label>
+        <input type="color" name="asd" readonly>
+        <br>
+        <br>
+        <button type="reset">
+            tozalash
+        </button>
+        <input type="range" min="10" max="20" step="5" name="age">
+        <button formaction="../2-lesson/index.html">
+            2 dars materialiga yuborish
+        </button>
+        <button>
+            Submit
+        </button>
+        <button formnovalidate>
+            submit without validate
+        </button>
+    </form>
+</body>
+</html>

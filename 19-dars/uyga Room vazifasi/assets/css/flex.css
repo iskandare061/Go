@@ -1,0 +1,95 @@
+* {
+    margin: 0;
+}
+.flex {
+    display: flex;
+}
+.justify-between {
+    justify-content: space-between;
+} 
+.px-192px {
+    padding: 19px;
+}
+.bg-red {
+    background-color: rgba(177, 17, 20, 1);
+}
+.ROOM {
+    font-size: 45px;
+    text-decoration: none;
+    color: #efecec;
+}
+ul {
+    list-style-type:none
+    
+}
+.Aulas,  
+.Conteúdo, 
+.Quemsomos {
+    text-decoration: none;
+    font-size: 25px;
+    padding: 40px 25px;
+    color: #efecec;
+}
+.img-float {
+    float: right;
+    width: 420px;
+    height: 230px;
+}
+.bg-redd {
+    padding: 100px;
+    background-color:rgba(136, 1, 0, 1);
+}
+ p{
+    font-size: 20px;
+    text-align:left;
+    color: #efecec;
+}
+h1 {
+    font-size: 70px;
+    text-align:left;
+    color: #efecec; 
+}
+
+.gap1 {
+    gap:3.5rem ;
+}
+.bg-sky{
+    background-color: rgba(238, 89, 92, 1);
+}
+.item1 {
+    color: #efecec;
+    text-align: center;
+    font-size: 40px;
+    border-radius:30px;
+    width: 33%;
+}
+.bg-reddd {
+    background-color:rgba(136, 1, 0, 1);  
+}
+
+.item2{
+    color: #efecec;
+    text-align: center;
+    font-size: 40px;
+    border-radius:30px;
+    width: 33%;
+}
+.item3 {
+    color: #efecec;
+    text-align: center;
+    font-size: 40px;
+    border-radius:30px;
+    width: 33%;
+}
+.min-h-rem1,.min-h-rem2,.min-h-rem3 {
+    height: 19rem;
+}
+.padding-1 {
+    padding-top: 30px;
+    padding-left: 50px;
+    padding-bottom: 150px;
+    padding-right: 40px;
+}
+.test{
+    text-align: center;
+}

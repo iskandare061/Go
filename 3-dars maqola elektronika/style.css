@@ -1,0 +1,134 @@
+body {
+    background-image: url("pastelnyy-fon-dlya-fotoshopa-perya.jpg");
+    background-repeat: no-repeat;
+    background-position: right top;
+    margin-right: 200px;
+    background-attachment: fixed;
+}
+
+table,td,th {
+    border:1px solid black;
+    border-collapse: collapse;
+    }
+    h1 {
+       text-shadow: 2px 2px 5px rgb(10, 10, 248);
+    }
+    
+       /*.list-style-type: none;
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
+        background-color: #0cd4de;*/
+      
+      
+      /*li {
+        float: left;
+     
+      
+     /* li a {
+        display: block;
+        padding: 8px;
+        color: rgb(27, 12, 235);
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+      }
+      li a:hover:not(.active) {
+        background-color: #16df13;
+      }
+      
+      .active {
+        background-color: #04AA6D;
+      }*/
+
+.jadval2 {
+    background-color: aquamarine;
+}
+
+#borderimg{
+  border: 15px solid transparent;
+  padding: 15px;
+  border-image: url(названия.png) 30 stretch;
+}
+.img-float{
+    float: right;
+    overflow-x: auto;
+}
+.img-float1{
+    border-image: url(Wikipedia_svg_logo-ru.svg.png);
+    width: 85px;
+    height: 30px;
+    float: left;
+}
+.gjou {
+    text-align: center;
+}
+
+h1 {
+    font-family:  Georgia, Times, 'Times New Roman', serif;
+    text-shadow: blue;
+    font-style:initial;
+    font-size: 3.3rem;
+}
+
+a {
+    color: blue;
+    
+    text-decoration: none;
+}
+a:visited{
+    color:rgb(228, 7, 7)
+}
+a:hover{
+    color: rgba(241, 8, 206, 0.991);
+}
+
+.brush{
+    background: #cce5ff;
+    color: darkblue;
+    margin: 5px;
+  
+   
+    font-family:sans-serif,system-ui, 'Segoe UI', 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+#overflowTest {
+    background: #130485;
+    color: white;
+    padding: 40px;
+    width: 70%;
+    height: 100px;
+    overflow: scroll;
+    border: 1px solid #ccc}
+
+#overflowTest2 {
+    background: #130485;
+    color: white;
+    padding: 40px;
+    width: 70%;
+    height: 100px;
+    overflow: scroll;
+    border: 1px solid #ccc}
+    
+#overflowTest3 {
+        background: #130485;
+        color: white;
+        padding: 40px;
+        width: 70%;
+        height: 100px;
+        overflow: scroll;
+        border: 1px solid #ccc}
+        
+.stay{
+    background: #ffe5e5;
+    color: darkred;
+    padding: 5px;
+    margin-left: 35px;
+
+
+}
+.tomo{
+    font-family: Impact,'Arial Narrow Bold', sans-serif;
+}
+.nina{
+    font-family: Impact,'Arial Narrow Bold', sans-serif;
+}

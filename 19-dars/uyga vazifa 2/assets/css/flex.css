@@ -1,0 +1,39 @@
+* {
+    margin: 0;
+}
+.flex {
+    display: flex;
+}
+.padding-1{
+ padding: 1.5rem;
+}
+.bg-blue {
+    background-color: blue;
+}
+.flex-column {
+    flex-direction: column;
+}
+.gap-1rem {
+    gap:1rem ;
+}
+.bg-red{
+    background-color: rgb(54, 243, 1);
+}
+.item2 {
+    width: 50%;
+}
+.item3{
+    width: 50%;
+}
+.item4 {
+    width: 30%;
+}
+.item5, .item6{
+    width: 37%;
+}
+.item7 {
+    width: 75%;
+}
+.min-h-rem4 {
+    height: 10rem;
+}

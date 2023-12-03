@@ -1,0 +1,42 @@
+* {
+    margin: 0;
+}
+.flex {
+    display: flex;
+}
+.bg-green {
+    background-color: rgb(106, 255, 47);
+}
+.p-1rem {
+    padding: 1rem;
+}
+.flex-column {
+    flex-direction: column;
+}
+.bg-sky {
+    background-color: rgb(67, 0, 252);
+}
+.gap-1rem {
+    gap: 1rem;
+}
+.items2{
+   flex-grow: 9;
+}
+.items2, .items3, .items4, .items5, .items11 {
+    flex-grow:1 ;
+}
+.items6, .items6\.5 {
+    flex-grow: 5;
+}
+.items8 {
+    width: 90%;
+}
+.items9 {
+    width: 80%;
+}
+.items10 {
+    width: 70%;
+}
+.min-h-3rem {
+    min-height: 5rem;
+}

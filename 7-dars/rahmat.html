@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title> <b>Thank you for registering </b></title>
+</head>
+<body>
+    <center><h1><span id="output"></span>Thank you for registering </h1></center>
+    <script>
+        const date = Object.fromEntries((new URLSearchParams)(Window.location.search).entries());
+        output.innerHTML = ${date.lastname} ${date.firstname},
+        
+    </script>
+</body>
+</html>

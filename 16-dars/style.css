@@ -1,0 +1,49 @@
+.flex {
+    display: flex;
+    /*flex-start, flex-end, left, center, right,
+     space-around, space-between, space-evenly*/
+    justify-content: space-around;
+    /* nowrap, wrap, wrap-reverse*/
+    flex-wrap: wrap-reverse;
+    /*row, row-reverse, column, column-reverse*/
+    flex-direction: column-reverse;
+    flex-flow: wrap column;
+    /*stretch, flex-start, flex-end, center*/
+    align-items: center;
+    /*space-around, space-between, space-evenly, flex-stert, 
+    flex-end, center */
+    align-content: space-between;
+    height: 50vh;
+    }
+.flex-item{
+    padding: 1rem;
+    margin: 0.5rem;
+}
+.flex-item:first-child {
+    background-color: blueviolet;
+}
+.flex-item:nth-child(2){
+    background-color: aqua;
+}
+.flex-item:nth-child(3){
+    background-color: green;
+}
+.flex-item:nth-child(4){
+    background-color: crimson;
+}
+.flex-item:nth-child(5){
+    background-color: rgb(155, 200, 0);
+}
+.flex-item:nth-child(6){
+    background-color: cornflowerblue;
+}
+.flex-item:nth-child(7){
+    background-color: yellow;
+}
+.flex-item:nth-child(8){
+    background-color: blue;
+}
+.flex-item:last-child {
+    background-color: darkgreen;
+    background-attachment: ;
+}
