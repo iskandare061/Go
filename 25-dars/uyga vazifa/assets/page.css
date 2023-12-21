@@ -8,10 +8,7 @@
     display: flex;
 }
 .logo{
-    font-size: 22px;
-    text-align:Medium;
-    color: aliceblue;
-    text-decoration: none;
+ padding: 22px 125px ;
 }
 .nav {
     gap: 3rem;
@@ -19,7 +16,9 @@
     padding-bottom:25px;
 }
 .nav-link {
-    font-size:17px;
+
+    padding:41px 17px 48px 829px 0.5px ;
+    font-size:14px;
     color: rgb(248, 242, 242);
     text-decoration: none;
 }
@@ -47,17 +46,33 @@ h1 {
     font-size: 80px;
 }
 .border-r{
-    padding-top: 271px;
-    padding-bottom: 50px;
+    padding: 271px 172px;
+    color: #FFFFF;
+    font-weight: 700;
+    font-size: 72px;
 }
-p{
+.bg-red{
+    background-color: #FF9142;
+}
 
+p {
     color: rgb(128, 128, 124);
     font-size: 20px;
 }
 .size{
+    padding: 516px 134px;
     font-size:85px;
-    text-align:start;
+}
+.svg{
+padding: 454px 506px 831px 836px;
+border-radius: 30px
+
+}
+.size0{
+    padding:625px 84px;
+    color: #A8A8A8;
+    font-size:18px;
+    font-weight: 400;
 }
 .gap-7\.5rem {
     gap:7rem;
@@ -122,10 +137,25 @@ h2,p {
     gap: 1.75rem;
     align-items: center;
 }
+
 .mx-auto {
     margin-left: auto;
     margin-right: auto;
 }
 .projects-title {
     margin-bottom: 3.75rem;
+}
+.explore-btn1 {
+    border: 2px solid #d2e3e3;
+    border-radius: 9999px;
+    padding:17px 60px ;
+    color: #d2e3e3;
+    font-weight: 700;
+    display: flex;
+    align-items: center;
+} 
+.mx-auto1{
+    margin-left: 138px;
+    margin-right: 40px;
+
 }
