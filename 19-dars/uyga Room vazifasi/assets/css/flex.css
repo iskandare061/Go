@@ -1,8 +1,17 @@
 * {
     margin: 0;
 }
-.boshqisim{
-    filter: blur(4px);
+.modal-container{
+    backdrop-filter: blur(4px);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    inset: 0;
+}
+.modal {
+    padding: 20px;
+    background-color: rgb(134, 134, 18);
 }
 .flex {
     display: flex;
