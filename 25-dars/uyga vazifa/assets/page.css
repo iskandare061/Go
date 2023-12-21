@@ -31,7 +31,6 @@
 }
 .container {
     max-width: 1440px;
-    max-height: 4977x;
     margin-left: auto;
     margin-right: auto;
     padding-left: 20px;
@@ -40,7 +39,7 @@
 
 .justify-between {
     justify-content: space-between;
-    align-items: center;
+  
 }
 h1 {
     text-align: center;
@@ -98,4 +97,35 @@ h2,p {
     text-align: center;
     color: aliceblue;
     font-size: 40px;
+}
+
+
+.project-item {
+    flex-basis: 50%;
+}
+
+.w-full {
+    width: 100%;
+}
+
+.gap-2rem {
+    gap: 2rem;
+}
+
+.explore-btn {
+    border: 1px solid #FF9142;
+    border-radius: 9999px;
+    padding: 25px 48px;
+    color: white;
+    font-weight: bold;
+    display: flex;
+    gap: 1.75rem;
+    align-items: center;
+}
+.mx-auto {
+    margin-left: auto;
+    margin-right: auto;
+}
+.projects-title {
+    margin-bottom: 3.75rem;
 }
