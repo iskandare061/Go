@@ -1,9 +1,27 @@
 * {
     margin: 0;
 }
+.boshqisim{
+    filter: blur(4px);
+}
 .flex {
     display: flex;
 }
+
+table,td,th{
+    border:1px solid black;
+    border-collapse: collapse;
+    }
+.max {
+    margin-top: 100px;
+    margin-bottom: 100px;
+    margin-right: 150px;
+    margin-left: 150px;
+    padding-bottom: 40px ;
+    padding-left: 100px;
+    padding-top: 500px;
+} 
+    
 .justify-between {
     justify-content: space-between;
 } 
@@ -17,7 +35,7 @@
     font-size: 45px;
     text-decoration: none;
     color: #efecec;
-}
+} 
 ul {
     list-style-type:none
     

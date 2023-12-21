@@ -1,0 +1,101 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color:rgba(26, 26, 26, 1); 
+}
+.flex {
+    display: flex;
+}
+.logo{
+    font-size: 22px;
+    text-align:Medium;
+    color: aliceblue;
+    text-decoration: none;
+}
+.nav {
+    gap: 3rem;
+    padding-top:35px;
+    padding-bottom:25px;
+}
+.nav-link {
+    font-size:17px;
+    color: rgb(248, 242, 242);
+    text-decoration: none;
+}
+.nav-link1{
+    border-radius: 2px;
+    border-color: aliceblue;
+    color: aliceblue;
+    text-decoration: none;
+}
+.container {
+    max-width: 1440px;
+    max-height: 4977x;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.justify-between {
+    justify-content: space-between;
+    align-items: center;
+}
+h1 {
+    text-align: center;
+    color: aliceblue;
+    font-size: 80px;
+}
+.border-r{
+    padding-top: 271px;
+    padding-bottom: 50px;
+}
+p{
+
+    color: rgb(128, 128, 124);
+    font-size: 20px;
+}
+.size{
+    font-size:85px;
+    text-align:start;
+}
+.gap-7\.5rem {
+    gap:7rem;
+}
+.gap-7rem{
+    gap:10rem
+}
+.div,.dov{
+    text-align: end;
+    padding-bottom: 2px;
+}
+h2,p {
+    padding-bottom: 10px;
+}
+
+.color{
+    color: aliceblue;
+}
+.colo{
+    text-align: center;
+    color: chocolate;
+}
+.gap-4rem {
+    gap: 4rem;
+}
+.card {
+    padding: 2rem;
+    /* flex: 0 0 calc(33.333333334% - 8rem); */
+    flex: 1 1 33.333333334%;
+    min-height: 300px;
+}
+.coloo {
+    color: aliceblue;
+    font-size: 40px;
+}
+.colo1{
+    text-align: center;
+    color: aliceblue;
+    font-size: 40px;
+}

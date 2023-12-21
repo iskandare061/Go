@@ -1,0 +1,93 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.flex {
+    display: flex;
+}
+
+.container {
+    max-width: 1350px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.bg-header {
+    background-color: #B11114;
+}
+
+
+.hero-section {
+    background-color: #880002;
+}
+.hero-section h1 {
+    color: white;
+    font-size: 80px;
+    margin-bottom: 28px;
+}
+
+.hero-section p {
+    color: white;
+}
+
+.hero-section .container {
+    padding-top: 80px;
+    padding-bottom: 80px;
+}
+
+.boxes-section {
+    background-color: #EE595C;
+    padding-top: 4rem;
+    padding-bottom: 4rem;
+}
+
+.card {
+    background-color: #880002;
+    padding: 2rem;
+    border-radius: 1.25rem;
+    /* flex: 0 0 calc(33.333333334% - 8rem); */
+    flex: 1 1 33.333333334%;
+    min-height: 300px;
+}
+.card h1 {
+    color: white;
+    font-size: 2rem;
+    margin-bottom: 24px;
+}  
+.card p {
+    color: white;
+}
+.logo {
+    font-size: 36px;
+    font-weight: bold;
+    color: white;
+    text-decoration: none;
+}
+.nav {
+    gap: 2rem;
+    padding-top:18px;
+    padding-bottom:18px;
+}
+.nav-link {
+    font-weight: 700;
+    color: white;
+    text-decoration: none;
+}
+
+.justify-between {
+    justify-content: space-between;
+    align-items: center;
+}
+
+.gap-7\.5rem {
+    gap: 7.5rem;
+}
+
+.gap-4rem {
+    gap: 4rem;
+}
