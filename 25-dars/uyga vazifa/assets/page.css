@@ -47,7 +47,7 @@ h1 {
 }
 .border-r{
     padding: 271px 172px;
-    color: #FFFFF;
+    color: white;
     font-weight: 700;
     font-size: 72px;
 }
@@ -60,8 +60,11 @@ p {
     font-size: 20px;
 }
 .size{
-    padding: 516px 134px;
-    font-size:85px;
+    text-align: right;
+    font-weight:bold;
+    padding:  81px 624px;
+    font-size:64px;
+    
 }
 .svg{
 padding: 454px 506px 831px 836px;
@@ -87,32 +90,52 @@ border-radius: 30px
 h2,p {
     padding-bottom: 10px;
 }
-
+.padding-1{
+    padding: 1440px ;
+} 
 .color{
+    padding: 193px 38px;
     color: aliceblue;
 }
 .colo{
+    font-weight: bold;
+    font-size: 24px;
+    background-color: black;
+    padding:  29px  429px ;
     text-align: center;
     color: chocolate;
 }
+.centr{
+    font-weight: bold;
+    font-size: 64px;
+    background-color: black;
+    padding:  258px  77px ;
+    text-align: center;
+    color:white;
+}
 .gap-4rem {
+    background-color: black;
     gap: 4rem;
 }
 .card {
+    background-color: black;
     padding: 2rem;
     /* flex: 0 0 calc(33.333333334% - 8rem); */
     flex: 1 1 33.333333334%;
     min-height: 300px;
 }
 .coloo {
+    background-color: black;
     color: aliceblue;
     font-size: 40px;
 }
 .colo1{
+    background-color: black;
     text-align: center;
     color: aliceblue;
     font-size: 40px;
 }
+
 
 
 .project-item {
@@ -157,5 +180,8 @@ h2,p {
 .mx-auto1{
     margin-left: 138px;
     margin-right: 40px;
-
+}
+.bg-black {
+    background-color: black;
+    padding:auto;
 }
