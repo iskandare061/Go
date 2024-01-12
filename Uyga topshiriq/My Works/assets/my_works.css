@@ -86,9 +86,15 @@
 .card{
     color: #d2e3e3;
     text-align: center;
-    padding: 1rem;
+    flex-grow: 1;
    /* flex: 1 1 33.333333334%;
     min-height: 300px;*/
+}
+.card img {
+    width: 100%;
+}
+.gap-2rem {
+    gap:2rem;
 }
 .colo{
     font-weight: bold;
