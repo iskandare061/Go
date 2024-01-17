@@ -1,47 +1,50 @@
-* {
-    margin: 0;
+* { margin: 0;
     padding: 0;
     box-sizing: border-box;
     background-color:rgba(26, 26, 26, 1); 
+   }
+
+body {
+    background-color: rgba(26, 26, 26, 1);
 }
+
 .flex {
     display: flex;
 }
 
-.nav {
-    padding:  47px 1140px;
-    gap: 110px;
+.border-949494 {
+    border-color: #949494;
 }
+
+.py-20px {
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
 .nav-link {
     text-align: center;
     font-weight: bolder;
     font-size:14px;
     color: rgb(116, 109, 109);
     text-decoration: none;
-}
-.nav-link1{
-    border-radius: 2px;
-    border-color: aliceblue;
-    color: rgb(116, 109, 109);
-    text-decoration: none;
-}
+   }
 .container {
     max-width: 1440px;
     margin-left: auto;
-    margin-right: auto;
-    padding-left: 47px;
-    padding-right: 47px;
 }
-.flex {
-    display: flex;
-}
+
 .justify-between {
     justify-content: space-between;
-  
+
 }
-.explore-btn1 {
+.items-center {
+    align-items: center;
+}
+
+.explore-btn {
     border: 2px solid #d2e3e3;
     border-radius: 9999px;
+    padding:17px 60px ;
     padding: 17px 60px;
     color: #d2e3e3;
     font-weight: 700;
@@ -51,12 +54,16 @@
 .mx-auto1{
     margin-left: 138px;
     margin-right: 40px;
+    background-color: transparent;
 }
-.text{
+
+.gap-40px {
+    gap: 40px;
+}
+.text {
     font-size: 72px;
     font-weight: bold;
     color: #FFFFFF;
-    
 }
 
 .text-big {
@@ -66,10 +73,23 @@
 }
 .vxz {
     padding: 142px 90px;
+
 }
-.img-float{
+.pt-150px {
+    padding-top: 150px;
+}
+.img-float {
     padding: 0;
 }
+
+.mb-10px {
+    margin-bottom: 10px;
+}
+
+.mb-90px {
+    margin-bottom: 90px;
+}
+
 .boxes-section {
     max-width: 1440px;
     margin-left: auto;
@@ -77,65 +97,150 @@
     padding-left: 47px;
     padding-right: 47px;
     text-align: center;
+   /* padding-top: 4rem;
     /* padding-top: 4rem;
     padding-bottom: 4rem;*/
 }
-.card{
+.text-white {
+    color: white;
+}
+
+.text-d2e3e3 {
     color: #d2e3e3;
     text-align: center;
     padding: 1rem;
    /* flex: 1 1 33.333333334%;
     min-height: 300px;*/
 }
-.gap-4rem{
+.gap-4rem {
     gap: 4.5rem;
 }
 .font-size{
     text-align: start;
+}
+.text-80px {
     font-weight: bold;
     font-size: 80px;
 }
 .pd-7rem{
     padding: 56px ;
 }
+.text-line-84px {
+    line-height: 84px;
+}
 .fontsize{
     color: rgba(148, 148, 148, 1);
+}
+.text-line-40px {
+    line-height: 40px;
+}
+
+.text-end {
     text-align: end;
     font-weight: 450;
     font-size: 30px;
+
 }
-.sizefont{
+
+.gap-28px {
+    gap: 28px;
+}
+
+.w-full {
+    width: 100%;
+}
+
+.flex-grow-1 {
+    flex-grow: 1;
+}
+.flex-grow-\[750\/1111\] {
+    flex-grow: calc(750 / 1111);
+}
+
+.flex-grow-\[361\/1111\] {
+    flex-grow: calc(361 / 1111);
+}
+
+.absolute {
+    position: absolute;
+}
+.relative {
+    position: relative;
+}
+.top-0 {
+    top: 0;
+}
+
+.left-47px {
+    left: 47px;
+}
+.bottom-0 {
+    bottom: 0;
+}
+.right-47px {
+    right: 47px;
+}
+.-translate-1\/2 {
+    transform: translate(-50%);
+}
+.translate-y-1\/2 {
+    transform: translateY(50%);
+}
+.h-full {
+    height: 100%;
+}
+/* .aspect-\[750\/515\] {
+    aspect-ratio: 1.4563106796116505;
+} */
+.pd-7rem {
+    padding: 56px;
+}
+
+.text-21px {
+    font-weight: 400;
+    font-size: 21px;
+}
+
+.sizefont {
     padding-bottom: 50px;
     font-size: 48px;
     font-weight: bold;
     text-align: start;
 }
-.font-sz{
+.font-sz {
     font-weight: bold;
     font-size: 32px;
 }
-.gap-rem{
+
+.gap-rem {
     gap: 9rem;
 }
-.pd-6{
+
+.pd-6 {
     color: rgba(148, 148, 148, 1);
     padding: 39px 65px;
 }
-.colo{
+
+
+.colo {
     font-weight: bold;
     font-size: 24px;
     background-color: black;
     padding:  69px  429px ;
+    padding: 69px 429px;
     text-align: center;
     color: chocolate;
 }
-.centr{
+
+.centr {
     font-weight: bold;
     font-size: 64px;
     background-color: black;
     padding:  77px 350px;
+    padding: 77px 350px;
     text-align: center;
     color:white;
+    color: white;
 }
 
 .coloo {
@@ -143,17 +248,21 @@
     color: aliceblue;
     font-size: 40px;
 }
-.colo1{
+
+.colo1 {
     padding-bottom: 50px;
     background-color: black;
     text-align: center;
     color: aliceblue;
     font-size: 40px;
 }
+
 .bg-black {
     background-color: black;
     padding:auto;
+    padding: auto;
 }
+
 .card1 {
     background-color: black;
     padding: 2rem;
@@ -161,8 +270,8 @@
     flex: 1 1 33.333333334%;
     min-height: 300px;
 }
-.gap{
+
+.gap {
     background-color: black;
     gap: 30px;
 }
-
