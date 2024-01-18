@@ -2,7 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    background-color:rgba(26, 26, 26, 1); 
+    
 }
 .flex {
     display: flex;
@@ -51,6 +51,7 @@
 .mx-auto1{
     margin-left: 138px;
     margin-right: 40px;
+    background-color: black;
 }
 .pt-150px {
     padding-top: 150px;
@@ -85,7 +86,7 @@
     padding-bottom: 4rem;*/
 }
 .gap{
-    gap:24rem;
+    gap:20;
 }
 .card{
     color: #d2e3e3;
@@ -133,9 +134,9 @@
     gap: 105px;
 }
 .p-1rem{
-    padding: 140px;
-    min-height: 0;
-
+    text-align: center;
+    padding: 2rem;
+    min-height: 100%;
 }
 .card0{
     color: #d2e3e3;
@@ -152,7 +153,6 @@
     font-weight: bold;
     font-size: 24px;
     background-color: black;
-    /*margin: 429px 29px;*/
     padding: 29px 429px;
     text-align: center;
     color: chocolate;
@@ -165,12 +165,17 @@
     text-align: center;
     color: white;
 }
+.centr a {
+    color: #FFFFFF;
+}
+body {
+    background-color:rgba(26, 26, 26, 1);
+}
 .gap1 {
     background-color: black;
     gap: 10rem;
 }
 .card1 {
-    background-color: black;
     padding: 2rem;
     /* flex: 0 0 calc(33.333333334% - 8rem); */
     flex: 1 1 33.333333334%;
