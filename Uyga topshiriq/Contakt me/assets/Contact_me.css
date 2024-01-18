@@ -85,24 +85,25 @@
     padding-bottom: 4rem;*/
 }
 .gap{
-
-    gap: 180px;
+    gap:24rem;
 }
 .card{
     color: #d2e3e3;
     text-align:start;
-    padding: 1rem;
+    padding: 0.5rem;
    /* flex: 1 1 33.333333334%;
     min-height: 300px;*/
 }
+.pd-7rem {
+    padding: 56px;
+    color: rgb(183, 212, 212);
+}
 .card1{
-    padding: 30px;
-    text-align: start;
     color: #d2e3e3;
     font-size: 64px;
     font-weight: bold;
-    flex: 1 1 33.333333334%;
-    min-height: 300px;
+    text-align: left;
+    
 }
 .explore-btn2 {
     background-color: coral;
@@ -129,11 +130,12 @@
 .flex-column {
     display: flex;
     flex-direction: column;
-    gap: 95px;
+    gap: 105px;
 }
 .p-1rem{
     padding: 140px;
     min-height: 0;
+
 }
 .card0{
     color: #d2e3e3;
@@ -142,36 +144,30 @@
     flex: 1 1 33.333333334%;
     min-height: 100px;
 }
-.colo{
+.bg-black {
+    background-color: black;
+    padding: auto;
+}
+.colo {
     font-weight: bold;
     font-size: 24px;
     background-color: black;
-    padding:  69px  429px ;
+    /*margin: 429px 29px;*/
+    padding: 29px 429px;
     text-align: center;
     color: chocolate;
 }
-.centr{
+.centr {
     font-weight: bold;
     font-size: 64px;
     background-color: black;
-    padding:  77px 350px;
+    padding: 77px 258px;
     text-align: center;
-    color:white;
+    color: white;
 }
-.coloo {
+.gap1 {
     background-color: black;
-    color: aliceblue;
-    font-size: 40px;
-}
-.colo1{
-    background-color: black;
-    text-align: center;
-    color: aliceblue;
-    font-size: 40px;
-}
-.bg-black {
-    background-color: black;
-    padding:auto;
+    gap: 10rem;
 }
 .card1 {
     background-color: black;
@@ -179,5 +175,18 @@
     /* flex: 0 0 calc(33.333333334% - 8rem); */
     flex: 1 1 33.333333334%;
     min-height: 300px;
+}
+.coloo {
+    background-color: black;
+    color: aliceblue;
+    font-size: 40px;
+}
+.colo1 {
+    padding-top: 30px;
+    padding-bottom: 50px;
+    background-color: black;
+    text-align: center;
+    color: aliceblue;
+    font-size: 40px;
 }
 
