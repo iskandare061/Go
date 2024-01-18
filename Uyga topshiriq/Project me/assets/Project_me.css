@@ -1,0 +1,141 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    background-color: rgba(26, 26, 26, 1);
+}
+.container {
+    max-width: 1440px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 47px;
+    padding-right: 47px;
+}
+.flex {
+    display: flex;
+}
+.justify-between {
+    justify-content: space-between;
+}
+
+.items-center {
+    align-items: center;
+}
+.py-20px {
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.gap-40px {
+    gap: 40px;
+}
+.nav-link {
+    text-align: center;
+    font-weight: bolder;
+    font-size: 14px;
+    color: rgb(116, 109, 109);
+    text-decoration: none;
+}
+.explore-btn {
+    border: 2px solid #d2e3e3;
+    border-radius: 9999px;
+    padding: 17px 60px;
+    color: #d2e3e3;
+    font-weight: 700;
+    background-color: transparent;
+}
+.img{
+    min-width: 100%;
+}
+.text-img {
+text-align: start;
+color: #FFFFFF;
+font-size: 32px;
+font-weight: bold;
+}
+.p-text{
+font-weight: 100;
+font-size:16px;
+color:rgb(156, 167, 184,100%);
+}
+.pd-750{
+    padding:200px;
+}
+.gap{
+    gap: 5rem;
+    max-width: 100%;
+}
+
+
+
+
+.pt-150px {
+    padding-top: 150px;
+}
+.mb-90px {
+    margin-bottom: 90px;
+}
+.text {
+    font-size: 72px;
+    font-weight: bold;
+    color: #FFFFFF;
+}
+.mb-10px {
+    margin-bottom: 10px;
+}
+.text-big {
+    font-size: 18px;
+    font-weight: medium;
+    color: rgba(148, 148, 148, 1);
+}
+.border-949494 {
+    border-color: #949494;
+}
+.bg-black {
+    background-color: black;
+    padding: auto;
+}
+.colo {
+    font-weight: bold;
+    font-size: 24px;
+    background-color: black;
+    padding: 29px 429px;
+    text-align: center;
+    color: chocolate;
+}
+.centr {
+    font-weight: bold;
+    font-size: 64px;
+    background-color: black;
+    padding: 77px 258px;
+    text-align: center;
+    color: white;
+}
+.centr a {
+    color: #FFFFFF;
+}
+.gap1 {
+    background-color: black;
+    gap: 10rem;
+}
+.card1 {
+    padding: 2rem;
+    /* flex: 0 0 calc(33.333333334% - 8rem); */
+    flex: 1 1 33.333333334%;
+    min-height: 300px;
+}
+.coloo {
+    background-color: black;
+    color: aliceblue;
+    font-size: 40px;
+}
+.colo1 {
+    padding-top: 30px;
+    padding-bottom: 50px;
+    background-color: black;
+    text-align: center;
+    color: aliceblue;
+    font-size: 40px;
+}
