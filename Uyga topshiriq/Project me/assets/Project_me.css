@@ -64,13 +64,21 @@ color:rgb(156, 167, 184,100%);
     padding:200px;
 }
 .gap{
-    gap: 5rem;
-    max-width: 100%;
+   gap: 1rem; 
 }
-
-
-
-
+.img-wf{
+    max-width:100%;
+    padding-bottom:30px ;
+}
+.p-big{
+    color: #FFFFFF;
+    font-size: 14px;
+    font-weight: 500;
+}
+.gap-rem{
+    gap: 1rem;
+    padding-bottom:20px ;
+}
 .pt-150px {
     padding-top: 150px;
 }
@@ -90,6 +98,27 @@ color:rgb(156, 167, 184,100%);
     font-weight: medium;
     color: rgba(148, 148, 148, 1);
 }
+.text1 {
+    font-size: 72px;
+    font-weight: bold;
+    color: #FFFFFF;
+    text-align: center;
+    padding-top:12rem ;
+    padding-bottom: 5rem;
+}
+.card{
+    color: #d2e3e3;
+    text-align:start;
+    padding: 0.5rem;
+   /* flex: 1 1 33.333333334%;
+    min-height: 300px;*/
+}
+.pd-bottom{
+    padding-bottom: 4rem;
+}
+.gap-2rem {
+    justify-content: space-between;
+} 
 .border-949494 {
     border-color: #949494;
 }
