@@ -116,3 +116,84 @@ main {
     text-align: center; 
 
 }
+.card{
+    border-radius: 14px;
+    border: 1.5px solid #868687;
+    background: #202020;
+    box-shadow: -6px 6px 19px 0px rgba(0, 0, 0, 0.39), -23px 26px 35px 0px rgba(0, 0, 0, 0.34), -52px 58px 47px 0px rgba(0, 0, 0, 0.20), -93px 103px 56px 0px rgba(0, 0, 0, 0.06), -145px 161px 61px 0px rgba(0, 0, 0, 0.01);
+    padding:15px 14px ;
+    width: 354.748px;
+    height: 279.633px;
+    flex-shrink: 0;
+    text-align: center;
+}
+.section1{
+    justify-content:center;
+    display: flex;
+    padding-left: 125px;
+    padding-right: 125px;
+    padding-top: 66px;
+    padding-bottom: 205px;
+    gap: 1rem;
+}
+.card-title{
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 100%; /* 40px */
+    letter-spacing: -1.2px;
+    background: linear-gradient(180deg, #FFF 26.67%, rgba(255, 255, 255, 0.00) 195%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.helper{
+    width: 173px;
+    height: 113px;
+    flex-shrink: 0;
+    font-size: 100px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 100px; /* 100px */
+    background: linear-gradient(144deg, #5CBFEA 18.71%, rgba(0, 194, 255, 0.00) 85.53%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.description{
+    width: 169px;
+    color: #BCBCBD;
+    font-size: 25px;
+    font-weight: 700;
+}
+.card-description{
+    width: 302px;
+    height: 53px;
+    flex-shrink: 0;
+    color: #BCBCBD;
+    text-align: center;
+    font-size: 25px;
+    font-weight: 500;
+}
+.testimonals{
+    justify-content: center;
+    text-align: center;
+    width: 854px;
+    color: #FFF;
+    text-align: center;
+    font-family: "SF Pro Display";
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 0%; /* 0px */
+}
+.badge1{
+    justify-content: center;
+    width: 1440px;
+    height: 82px;
+    flex-shrink: 0;
+    border-radius: 80px 80px 0px 0px;
+    background: linear-gradient(156deg, #1272E3 8.25%, #002249 162.41%);
+    margin-top: -5rem;
+}
+
