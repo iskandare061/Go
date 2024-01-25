@@ -22,8 +22,12 @@ header {
     max-width: 680px;
     align-items: center;
     border-radius: 1rem;
+    
 }
-
+.nav-link{
+    color: #6F6F6F;
+    text-decoration: none;
+}
 .nav-list {
     display: flex;
     gap: 56px;
@@ -53,8 +57,6 @@ header section {
     color: transparent;
     background-color: #202020;
     border-radius: 20px;
-
-
 } 
 
 .header-title .badge span {
@@ -66,9 +68,11 @@ header section {
 .header-decription {
     color: #C3C3C3;
     text-align: center;
-    font-size: 24px
+    font-size: 24px;
+    margin-bottom: 30px;
 }
 .header-nav-btn{
+    border-radius: 8px ;
     background-color: #002332;
     color: cornsilk;
 }
@@ -80,22 +84,50 @@ header section {
     border: 3px solid #106E19;
     padding: 4px;
     background-color: #2A6A30;
+    flex-direction: column;
 }
 .header-btn .badge div {
     background-color: #00FF47;
     border-radius: 999px;
+    aspect-ratio: 1;
     height: 12px;
-    aspect-ratio: 1/1;
     text-align: center;
 }
 
+
 .header-btn {
-    display: flex;
+    padding-top: 14px;
+    padding-bottom: 14px;
+    padding-right: 79px;
+    padding-left: 53px;
+    border-radius:15px;
     font-size: 18px;
-    gap: 24px;
-    font-weight: medium;
+    gap:24px;
     text-transform: capitalize;
-  
+    display: flex;
+    margin-left: auto;
+    margin-right: auto
+}
+.header-btn1{
+    padding-top: 14px;
+    padding-bottom: 14px;
+    padding-right: 79px;
+    padding-left: 53px;
+    border-radius:15px;
+    font-size: 18px;
+    gap:24px;
+    text-transform: capitalize;
+    display: flex;
+    margin-left: auto;
+    margin-right: auto 
+}
+.badge0{
+    background-color: #270bc7;
+    border-radius: 999px;
+    border: 8px solid #270bc7;
+    box-shadow: 2px -1px 8px 2px #270bc76f;
+    padding: 8px;
+    flex-direction: column;
 }
 
 main {
@@ -110,11 +142,19 @@ main {
     padding-top: 2rem;
 }
 .redio-shaddow{
-    border-radius:2px solid 9999px;
+    border-radius: 999px;
+    color:rgba(16, 162, 243, 1) ;
 }
 .btn-shaddow{
-    text-align: center; 
-
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    border-radius: 15px;
+    padding-bottom: 14px;
+    padding-top: 14px;
+    font-size: 18px;
+    text-transform: capitalize;
+    
 }
 .card{
     border-radius: 14px;
@@ -122,16 +162,13 @@ main {
     background: #202020;
     box-shadow: -6px 6px 19px 0px rgba(0, 0, 0, 0.39), -23px 26px 35px 0px rgba(0, 0, 0, 0.34), -52px 58px 47px 0px rgba(0, 0, 0, 0.20), -93px 103px 56px 0px rgba(0, 0, 0, 0.06), -145px 161px 61px 0px rgba(0, 0, 0, 0.01);
     padding:15px 14px ;
-    width: 354.748px;
-    height: 279.633px;
+    max-width: 354.748px;
     flex-shrink: 0;
     text-align: center;
 }
 .section1{
     justify-content:center;
     display: flex;
-    padding-left: 125px;
-    padding-right: 125px;
     padding-top: 66px;
     padding-bottom: 205px;
     gap: 1rem;
@@ -140,7 +177,6 @@ main {
     font-size: 40px;
     font-style: normal;
     font-weight: 700;
-    line-height: 100%; /* 40px */
     letter-spacing: -1.2px;
     background: linear-gradient(180deg, #FFF 26.67%, rgba(255, 255, 255, 0.00) 195%);
     background-clip: text;
@@ -148,27 +184,25 @@ main {
     -webkit-text-fill-color: transparent;
 }
 .helper{
-    width: 173px;
-    height: 113px;
     flex-shrink: 0;
     font-size: 100px;
     font-style: normal;
     font-weight: 700;
-    line-height: 100px; /* 100px */
+}
+.helper .title  {
     background: linear-gradient(144deg, #5CBFEA 18.71%, rgba(0, 194, 255, 0.00) 85.53%);
     background-clip: text;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
 .description{
-    width: 169px;
-    color: #BCBCBD;
+    max-width: 169px;
+    color: #e0e0e4;
     font-size: 25px;
     font-weight: 700;
+    align-items: center;
 }
 .card-description{
-    width: 302px;
-    height: 53px;
     flex-shrink: 0;
     color: #BCBCBD;
     text-align: center;
@@ -176,24 +210,25 @@ main {
     font-weight: 500;
 }
 .testimonals{
-    justify-content: center;
-    text-align: center;
-    width: 854px;
     color: #FFF;
     text-align: center;
     font-family: "SF Pro Display";
     font-size: 32px;
     font-style: normal;
     font-weight: 700;
-    line-height: 0%; /* 0px */
+}
+.badge{
+    color: #1272E3;
+   
 }
 .badge1{
-    justify-content: center;
-    width: 1440px;
-    height: 82px;
-    flex-shrink: 0;
+    max-width: 1440px;
+    height: 50px;
     border-radius: 80px 80px 0px 0px;
-    background: linear-gradient(156deg, #1272E3 8.25%, #002249 162.41%);
-    margin-top: -5rem;
+    background-image: linear-gradient(156deg, #1272E3 8.25%, #002249 162.41%);
+    margin-top: -3rem;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
 }
 
