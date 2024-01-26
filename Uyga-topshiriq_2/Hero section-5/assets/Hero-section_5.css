@@ -35,6 +35,14 @@ header {
     gap: 56px;
     color: #FFF;
 }
+ul a {
+    color: #FFF;
+    text-decoration: none;
+    font-family: "SF Pro Display";
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+}
 .nav-text{
     text-decoration: none;
 }
