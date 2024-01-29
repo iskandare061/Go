@@ -1,90 +1,83 @@
 * {
-    box-sizing: border-box;
     padding: 0;
     margin: 0;
-    list-style: none;
+    box-sizing: border-box;
 }
 
-header {
-    display: flex;
-    flex-direction: column;
-    padding: 20px;
-    gap: 20px;
-    align-items: center;
+.page {
+    height: 100vh;
 }
 
-.header-nav {
-    border: 1px solid white;
-    background-color:rgba(254, 158, 158, 1) ;
-    padding: 10px 192px 10px 192px;
+.page header {
+    background-color: #FE9E9E;
+}
+
+.flex {
     display: flex;
-    gap: 100px;
+}
+.justify-between {
+
     justify-content: space-between;
-    align-items: center;
-    
 }
-.nav-list {
-    display: flex;
-    gap: 10px;
-    padding: 10px;
+.items-center {
     align-items: center;
 }
-ul a {
-    color: #0c0c0c;
-    font-size: 20px;
-    font-weight: 350;
+.container {
+    max-width: 1340px;
+    padding: 18px 20px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.logo {
+    font-size: 36px;
+    line-height: 1.2225;
+}
+
+.logo, .nav-link {
     text-decoration: none;
+    color: black;
 }
-.logo{
-     max-width: 74px;
-     font-size: 36px;
-     font-weight: 400;
+.nav-link, .btn-primary {
+    font-size: 1.25rem;
+    padding: .75rem .5rem;
 }
-.btn-nav{
-    padding: 8px 12px 8px 12px;
-    color: aliceblue;
-    font-size: 12px;
-    border: 1px solid white;
-    border-radius: 12px;
-    background-color: rgba(248, 97, 97, 1);
+.btn-primary {
+    border:none;
+    border-radius: .75rem;
+
+    background-color: #F86161;
+    color: white;
+}
+.gap-1\.25rem {
+    gap: 1.25rem;
+}
+
+aside {
+ background-color: #ececec;
+ min-width: 20rem;
 }
 main {
-    display: flex;
-    flex-direction: column;
-    gap: 20px;
-    align-items: center;
-}
-.main-div{
-    display: flex;
-    gap: 120px;
-    justify-content: space-between;
-    align-items: center;
-    
-}
-.div0{
-    background-color: rgba(236, 236, 236, 1);
-    width: 320px;
-    height: 800px;
+    background-color: #F0CBCB;
 }
 
-.div2{
-    background-color:rgba(240, 203, 203, 1);
-    width: 1288px;
-    height: 800px;
-}
-footer {
-    display: flex;
+.flex-column {
     flex-direction: column;
-    align-items: center;
-    
 }
-.footer-div{
+
+.flex-grow-1 {
+    flex-grow: 1;   
+}
+
+.gap-7\.5rem {
+    gap: 7.5rem;
+}
+
+footer {
+    min-height: 200px;
+    background-color: #C96565;
+    text-align: center;
     display: flex;
-    width: 1728px;
+    justify-content: center;
     align-items: center;
-}
-.main0{
-    background-color:rgba(201, 101, 101, 1);
-    width: 1728px;
-    height: 200px;
 }

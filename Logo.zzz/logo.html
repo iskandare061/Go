@@ -7,29 +7,28 @@
     <link rel="stylesheet" href="assets/logo_zzz.css">
 </head>
 <body>
-      <header>
-          <nav class="header-nav">
-            <span class="logo">Logo</span>
-            <ul class="nav-list">
-                <li><a href="">home</a></li>
-                <li><a href="">about</a></li>
-                <li><a href="">services</a></li>
-                <li><a href="">contack</a></li>
-                <li><a href="">price list</a></li>
-                <button class="btn-nav">login</button>
-            </ul>
-          </nav>
-      </header>
-      <main>
-          <div class="main-div" >
-                <div class="div0"></div>
-                <div class="div2"></div>
-          </div>
-      </main>
-      <footer>
-          <div class="footer-div">
-               <div class="main0"></div>
-          </div>
-      </footer>
+    <div class="page flex flex-column">
+        <header>
+            <div class="flex justify-between container items-center">
+                <a href="" class="logo">logo</a>
+                <nav class="flex gap-1.25rem items-center">
+                    <a href="" class="nav-link">home</a>
+                    <a href="" class="nav-link">about</a>
+                    <a href="" class="nav-link">services</a>
+                    <a href="" class="nav-link">contacts</a>
+                    <a href="" class="nav-link">price list</a>
+                    <button class="btn-primary">login</button>
+                </nav>
+            </div>
+        </header>
+        <section class="flex flex-grow-1 gap-7.5rem">
+            <aside></aside>
+            <main class="flex-grow-1">
+            </main>
+        </section>
+        <footer>
+            <div>footer</div>
+        </footer>
+    </div>
 </body>
 </html>
